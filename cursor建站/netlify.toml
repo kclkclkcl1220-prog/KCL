@@ -1,0 +1,6 @@
+[build]
+  publish = "public" # 替换为你的发布目录，例如 "dist" 或 "build"
+  command = "" # 如果没有构建命令，留空；否则填入你的构建命令，如 "npm run build"
+
+[build.processing]
+  skip_processing = true # 禁用所有后处理
